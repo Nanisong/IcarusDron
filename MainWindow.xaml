@@ -1,0 +1,30 @@
+﻿<Window x:Class="IcarusDron.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IcarusDron"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="320"/>
+            <RowDefinition Height="200"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Service Problem"  HorizontalAlignment="Left" Height="30" Width="146" Margin="0,116,0,174" FontSize="14" FontFamily="Arial"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="Service Cost"  HorizontalAlignment="Left" Height="30" Width="90" Margin="0,166,0,124" FontSize="14" FontFamily="Arial"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="Service Tag"  HorizontalAlignment="Left" Height="30" Width="90" Margin="0,243,0,47" FontSize="14" FontFamily="Arial"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="Drone Model"  HorizontalAlignment="Left" Height="30" Width="90" Margin="0,71,0,219" FontSize="14" FontFamily="Arial"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="Client Name"  HorizontalAlignment="Left" Height="30" Width="90" Margin="0,21,0,269" FontSize="14" FontFamily="Arial"/>
+
+        <TextBox  Grid.Row="0" Grid.Column="0" Height="30" Width="146" Margin="137,21,117,269"/>
+        <TextBox  Grid.Row="0" Grid.Column="0" Height="30" Width="146" Margin="137,71,117,219"/>
+        <TextBox  Grid.Row="0" Grid.Column="0" Height="30" Width="146" Margin="137,116,117,174"/>
+        <TextBox  Grid.Row="0" Grid.Column="0" Margin="137,166,51,86"/>
+    </Grid>
+</Window>
