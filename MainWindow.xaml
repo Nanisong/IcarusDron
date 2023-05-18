@@ -26,5 +26,20 @@
         <TextBox  Grid.Row="0" Grid.Column="0" Height="30" Width="146" Margin="137,71,117,219"/>
         <TextBox  Grid.Row="0" Grid.Column="0" Height="30" Width="146" Margin="137,116,117,174"/>
         <TextBox  Grid.Row="0" Grid.Column="0" Margin="137,166,51,86"/>
+        <ListView Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,10,21,104">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="11,10,10,104" Grid.Column="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListBox Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="64,103,102,10"/>
     </Grid>
 </Window>
