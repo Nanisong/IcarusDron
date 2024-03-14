@@ -1,5 +1,5 @@
 # IcarusDron
-This repository hosts a C# application with a WPF-designed interface, dedicated to managing drone repair workflows using a first-in-first-out (FIFO) approach. It leverages two queue data structures to ensure efficient processing of drone repair requests, maintaining a systematic and timely repair cycle.
+This repository hosts a **C# application** with a **WPF**-designed interface, dedicated to managing drone repair workflows using a first-in-first-out (FIFO) approach. It leverages two queue data structures to ensure efficient processing of drone repair requests, maintaining a systematic and timely repair cycle.
 
 ## Key Features: 🚀
 - **Efficient Queue Management:** Utilizes two distinct queues to handle incoming repair tasks and processed drones awaiting pickup.
